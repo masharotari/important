@@ -1,0 +1,103 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #850909;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4845db, #6251c0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f35207, #40ca95);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-sec {
+  background: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-android-green-solid-color-background.jpg) no-repeat left bottom;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0 10px 10px 0;
+}
+
+.box-shadow {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -1px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -1px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.carousel-inner {
+  border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.login-sec {
+  padding: 50px 30px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.login-sec .copy-text i {
+  color: #eb8afe;
+}
+
+.login-sec .copy-text a {
+  color: #7d0eec;
+}
+
+.login-sec h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #28815c;
+}
+
+.login-sec h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #d1204c;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.btn-login {
+  background: #DE6262;
+  color: #fff;
+  font-weight: 600;
+}
+
+.banner-text {
+  text-shadow: 2px 2px 20px #fc5a03;
+  padding-left: 8px;
+}
+
+.banner-text h2 {
+  color: rgb(18, 19, 18);
+  font-weight: 600;
+}
+
+.banner-text p {
+  color: rgb(99, 40, 40);
+}
