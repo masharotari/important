@@ -32,3 +32,9 @@
   align-items: center;
   height: 25px;
 }
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #FFFFFF !important;
+  box-shadow: 5px 5px 15px 5px #FFFFFF !important;
+
+}
