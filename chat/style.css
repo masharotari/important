@@ -20,15 +20,15 @@ body {
   height: 100%;
 }
 
-.avatar left :not(:first-child) {
+.conversatii :not(:first-child) {
   margin-top: 1px;
 }
 
-.avatar left :not(:first-child) {
-  margin-bottom: 5px;
-  border-bottom: 1px dotted;
+.conversatii:not(:first-child) {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted gray;
 }
 
-.panel-body {
+.conversatii {
   margin-right: 10px;
 }
