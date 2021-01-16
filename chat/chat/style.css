@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.border-blue {
+  border: 1px solid #428bca;
+}
+
+.border-blue .border-fill {
+  background-color: #428bca;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-red .border-fill {
+  background-color: red;
+}
+
+.author-container .time-ago {
+  font-size: 10px;
+}
+
+.chat-message:not(:first-child) {
+  padding-top: 7px;
+}
+
+.chat-message:not(:last-child) {
+  padding-bottom: 7px;
+  border-bottom: 1px dotted gray;
+}
+
+.chat-message:not(.flex-row-reverse) .author-image {
+  margin-right: 10px;
+}
+
+.chat-message.flex-row-reverse .author-image {
+  margin-left: 10px;
+}
+
+.card-body {
+  min-height: 400px;
+  overflow-y: auto;
+  /* page height - header - footer - border */
+  height: calc(100vh - 59px - 63px - 2px);
+}
+
+@media screen and (max-width: 768px) {
+  .container-lg {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: unset !important;
+  }
+}
