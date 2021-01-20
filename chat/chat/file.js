@@ -1,4 +1,4 @@
-alert("Hello! I am an alert box!");
+
 function showChat() {
   const chatFooter = document.getElementById('chat-footer');
   const chatBody = document.getElementById('chat-body');
@@ -33,21 +33,48 @@ function sum() {
   const a = document.getElementById('leta').value;
   const b = document.getElementById('letb').value;
   let result = Number(a) + Number(b);
-  alert(result);
-}
-if (result >= 100) {
-  alert("100+");
-}
-else if (result >= 70) {
-  alert("70+");
-}
-else if (result >= 50) {
-  alert("50+");
-}
-else if (result >= 10) {
-  alert("10+");
-}
-else if (result >= 0) {
-  alert("0+")
-}
+  if (numarbun()) {
+    alert('numar bun s-a facut');
+  }
 
+  // if (result >= 100) {
+  //   alert("100+");
+  // }
+  // else if (result >= 70) {
+  //   alert("70+");
+  // }
+  // else if (result >= 50) {
+  //   alert("50+");
+  // }
+  // else if (result >= 10) {
+  //   alert("10+");
+  // }
+  // else if (result >= 0) {
+  //   alert("0+")
+  // }
+
+  // 
+  function esteParsauImpar(numar) {
+    if (numar % 2 === 0) {
+      alert("Număr par")
+    } else {
+      alert("Număr impar")
+    }
+  }
+  function laPutere(num, putere) {
+    return Math.pow(num, putere)
+  }
+  function minMax(num1, num2) {
+    if (num1 > num2) {
+      return num1
+    } else if (num2 > num1) {
+      return num2
+    }
+  }
+  function minMax2(num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+      return num1
+    } else if (num2 > num3 && num2 > num1) {
+      return num2
+    }
+  }
