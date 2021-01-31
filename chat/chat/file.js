@@ -85,7 +85,7 @@ function sum() {
 
     function minMax(min, max, num) {
         if (min > max) {
-            return undefined
+            return undefined //return undefiend asta e fix return?//return
 
         }
         if (num < min) {
@@ -100,3 +100,33 @@ function sum() {
     }
 
     const x = minMax(10, 100, 50)
+
+
+
+    const arr = [1, 2, undefined, 4, 5, undefined, 7];
+    let sum = 0;
+
+    //initializare , conditia, interatia;
+    for (let i = 0; i < arr.length; i++) { //i este index
+
+        if (!arr[i]) { //poate fi si  arr[i] = = = undefined
+            console.log(arr[i]); //arr[i]=este undefined;
+            arr[i] = i + 1 //semnul ! este inversaria valorii
+
+
+        }
+
+        sum = sum + arr[i];
+
+
+    }
+
+    const arr = [1, 2, 3, 4, 5];
+    const arr2 = [5, 4, 3, 2, 1];
+
+    const rezultat = [];
+    for (let i = 0; i < arr.length; i++) {
+
+        rezultat[i] = arr[i] - arr2[i];
+
+    }
