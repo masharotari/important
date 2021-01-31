@@ -130,3 +130,15 @@ function sum() {
         rezultat[i] = arr[i] - arr2[i];
 
     }
+    const arr = [1, 2, 3, 4, 5];
+    const arr2 = [5, 4, 3, 2, 1];
+
+    const rezultat = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        rezultat[i] = arr[i];
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+        rezultat[i] = arr2[i];
+    }
